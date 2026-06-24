@@ -1,16 +1,15 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.abarrotes.pos.vista;
 
-/**
- *
- * @author danie
- */
+// Si necesitas imports, van aquí abajo del package, por ejemplo:
+// 
+
 public class POS_Abarrotes {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        // Tu lógica de inicio aquí
+        frmLogin login = new frmLogin();
+        login.setVisible(true);
+        login.setLocationRelativeTo(null);
     }
+    
 }
